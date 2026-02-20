@@ -1,0 +1,18 @@
+.orders-stats__item {
+    display: flex;
+    /* 
+     grow: 1
+     shrink: 1
+     base width: 220px
+  */
+    flex-direction: column;
+    padding: 28px;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.orders-stats__item h3 {
+    font-size: 32px;
+    margin: 0;
+}

@@ -1,0 +1,11 @@
+.orders-stats {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: .85rem;
+}
+
+@media (min-width: 600px) {
+    .orders-stats {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

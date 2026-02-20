@@ -1,0 +1,62 @@
+.product-modal__backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: grid;
+  place-items: center;
+  z-index: 20;
+  padding: 16px;
+}
+
+.product-modal {
+  width: min(100%, 460px);
+  background: var(--color-surface);
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product-modal__title {
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+.product-modal__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-modal__input {
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.product-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.catalog__btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.catalog__btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.catalog__btn--primary:hover {
+  background-color: var(--color-primary-dark);
+}
